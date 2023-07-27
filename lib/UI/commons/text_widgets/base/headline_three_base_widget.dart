@@ -24,7 +24,7 @@ class HeadlineThreeBaseWidget extends StatelessWidget {
             color: foreground == null ? titleColor : null,
             fontSize: 24,
             foreground: titleColor == null ? foreground ?? Paint() : null,
-            fontFamily: fontFamily ?? FontConstant.libreFranklinMedium,
+            fontFamily: fontFamily ?? FontConstant.notoSansKRMedium,
           ),
       textAlign: titleTextAlign ?? TextAlign.center,
     );

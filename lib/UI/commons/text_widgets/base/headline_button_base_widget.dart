@@ -21,7 +21,7 @@ class HeadlineBodyButtonBaseWidget extends StatelessWidget {
       style: Theme.of(context)
           .textTheme
           .button!
-          .copyWith(color: titleColor,fontSize: 14, fontFamily: fontFamily ?? FontConstant.libreFranklinMedium)
+          .copyWith(color: titleColor,fontSize: 14, fontFamily: fontFamily ?? FontConstant.notoSansKRMedium)
           .copyWith(decoration: TextDecoration.underline),
     );
   }

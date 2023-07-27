@@ -32,7 +32,7 @@ class CaptionText extends StatelessWidget {
     return Theme.of(context)
         .textTheme
         .caption!
-        .copyWith(color: color, fontFamily:fontFamily ?? FontConstant.libreFranklinRegular);
+        .copyWith(color: color, fontFamily:fontFamily ?? FontConstant.notoSansKRRegular);
   }
 }
 
@@ -62,7 +62,7 @@ class SmallText extends StatelessWidget {
       style: TextStyle(
         fontSize: 12.0,
         color: color,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinMedium,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRMedium,
       ),
       maxLines: maxLine,
     );
@@ -95,7 +95,7 @@ class SmallVerifyText extends StatelessWidget {
       style: TextStyle(
         fontSize: 14.0,
         color: Colors.red,
-        fontFamily:fontFamily ?? FontConstant.libreFranklinMedium,
+        fontFamily:fontFamily ?? FontConstant.notoSansKRMedium,
       ),
       maxLines: maxLine,
     );
@@ -132,7 +132,7 @@ class Body1Text extends StatelessWidget {
       style: TextStyle(
         fontSize: fontSize + 0.0,
         color: color,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinRegular,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRRegular,
       ),
       maxLines: maxLine,
     );
@@ -169,7 +169,7 @@ class Body2Text extends StatelessWidget {
       textAlign: align,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
-          fontSize: 14, color: color, fontFamily:fontFamily ?? FontConstant.libreFranklinMedium),
+          fontSize: 14, color: color, fontFamily:fontFamily ?? FontConstant.notoSansKRMedium),
       maxLines: maxLine,
     );
   }
@@ -205,7 +205,7 @@ class SubTitleText extends StatelessWidget {
       textAlign: align,
       style: style(context).copyWith(
         fontSize: 16,
-        fontFamily:fontFamily ?? FontConstant.libreFranklinBold,
+        fontFamily:fontFamily ?? FontConstant.notoSansKRBold,
       ),
       maxLines: maxLine,
     );
@@ -243,7 +243,7 @@ class TitleText extends StatelessWidget {
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
         fontSize: 20.0,
-        fontFamily:fontFamily ??  FontConstant.libreFranklinRegular,
+        fontFamily:fontFamily ??  FontConstant.notoSansKRRegular,
         color: color,
         decoration: TextDecoration.none,
       ),
@@ -284,7 +284,7 @@ class SubHeadText extends StatelessWidget {
       style: TextStyle(
         fontSize: 20.0,
         color: color,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinRegular,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRRegular,
       ),
       maxLines: maxLine,
     );
@@ -316,7 +316,7 @@ class HeadlineText extends StatelessWidget {
       overflow: TextOverflow.ellipsis,
       style: style(context).copyWith(
         fontSize: 22,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinMedium,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRMedium,
       ),
       maxLines: maxLine,
     );
@@ -354,7 +354,7 @@ class Display1Text extends StatelessWidget {
       overflow: TextOverflow.visible,
       style: style(context).copyWith(
         fontSize: 30,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinRegular,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRRegular,
       ),
       maxLines: maxLine,
     );

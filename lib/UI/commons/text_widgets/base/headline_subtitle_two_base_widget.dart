@@ -22,7 +22,7 @@ class HeadlineSubTitleTwoBaseWidget extends StatelessWidget {
       style: Theme.of(context).textTheme.subtitle2!.copyWith(
             color: titleColor,
             fontSize: 14,
-            fontFamily: fontFamily ??  FontConstant.libreFranklinMedium,
+            fontFamily: fontFamily ??  FontConstant.notoSansKRMedium,
           ),
     );
   }

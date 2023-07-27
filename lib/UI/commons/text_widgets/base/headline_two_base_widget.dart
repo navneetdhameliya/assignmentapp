@@ -19,7 +19,7 @@ class HeadlineTwoBaseWidget extends StatelessWidget {
       style: Theme.of(context).textTheme.headline2!.copyWith(
             color: titleColor,
             fontSize: 60,
-            fontFamily: fontFamily ?? FontConstant.libreFranklinRegular,
+            fontFamily: fontFamily ?? FontConstant.notoSansKRRegular,
           ),
     );
   }

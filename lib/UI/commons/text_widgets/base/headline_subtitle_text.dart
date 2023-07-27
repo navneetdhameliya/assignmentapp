@@ -27,7 +27,7 @@ class HeadlineSubTitleTextWidget extends StatelessWidget {
         color: titleColor,
         decoration: textDecoration,
         fontSize: fontSize,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinRegular,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRRegular,
       ),
     );
   }

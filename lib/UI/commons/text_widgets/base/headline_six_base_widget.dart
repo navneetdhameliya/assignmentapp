@@ -23,7 +23,7 @@ class HeadlineSixBaseWidget extends StatelessWidget {
       style: Theme.of(context).textTheme.headline6!.copyWith(
             color: titleColor,
             fontSize: 20,
-            fontFamily: fontFamily ?? FontConstant.libreFranklinMedium,
+            fontFamily: fontFamily ?? FontConstant.notoSansKRMedium,
           ),
       textAlign: titleTextAlign,
       maxLines: maxLine,

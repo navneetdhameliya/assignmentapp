@@ -22,7 +22,7 @@ class CaptionBaseWidget extends StatelessWidget {
       title,
       style: Theme.of(context).textTheme.caption!.apply(
             color: titleColor,
-        fontFamily:fontFamily ?? FontConstant.libreFranklinRegular
+        fontFamily:fontFamily ?? FontConstant.notoSansKRRegular
           ),
       textAlign: titleTextAlign,
       maxLines: maxLine,

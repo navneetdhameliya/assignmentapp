@@ -43,7 +43,7 @@ class HeadlineBodyOneBaseWidget extends StatelessWidget {
         color: foreground == null ? titleColor : null,
         fontSize: fontSize,
         height: height,
-        fontFamily: fontFamily ?? FontConstant.libreFranklinMedium,
+        fontFamily: fontFamily ?? FontConstant.notoSansKRMedium,
         foreground: titleColor == null ? foreground : null,
         fontWeight: fontWeight ?? FontWeight.normal,
         decoration: underline ? TextDecoration.underline : null,

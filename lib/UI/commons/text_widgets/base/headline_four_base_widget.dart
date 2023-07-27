@@ -19,7 +19,7 @@ class HeadlineFourBaseWidget extends StatelessWidget {
     return Text(
       title!,
       style: Theme.of(context).textTheme.headline4!.copyWith(
-          color: titleColor, fontFamily: fontFamily ?? FontConstant.libreFranklinRegular, fontSize: 34),
+          color: titleColor, fontFamily: fontFamily ?? FontConstant.notoSansKRRegular, fontSize: 34),
     );
   }
 }
