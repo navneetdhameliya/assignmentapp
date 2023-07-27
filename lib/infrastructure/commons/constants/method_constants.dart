@@ -3,6 +3,9 @@
 
 import 'dart:io' as io;
 
+import 'package:assignmentapp/infrastructure/commons/constants/app_constants.dart';
+import 'package:get/get.dart';
+
 
 
 class MethodConstants {
@@ -18,6 +21,17 @@ class MethodConstants {
     } on io.SocketException catch (_) {
       return false;
     }
+  }
+
+  static String getTimeDifference(String timeStamp) {
+    return DateTime.fromMillisecondsSinceEpoch(
+        DateTime.now()
+            .millisecondsSinceEpoch).difference(DateTime.fromMillisecondsSinceEpoch(int.parse(timeStamp)))
+        .inDays
+        .toString() +
+    AppConstants
+        .daysAgoText
+        .tr;
   }
 
 }

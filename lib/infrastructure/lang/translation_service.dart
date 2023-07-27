@@ -5,20 +5,21 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class TranslationService extends Translations {
-  static Locale? get locale => Get.deviceLocale;
+  static Locale? get locale => const Locale('ko', 'KR');
   static const fallbackLocale = Locale('ko', 'KR');
 
   // Supported languages
   // Needs to be same order with locales
   static final langs = [
+    'Korean',
     'English',
   ];
 
   // Supported locales
   // Needs to be same order with langs
   static final locales = [
-    const Locale('en', 'US'),
     const Locale('ko', 'KR'),
+    const Locale('en', 'US'),
   ];
 
   @override

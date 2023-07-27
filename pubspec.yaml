@@ -16,6 +16,7 @@ dependencies:
   get: ^4.6.5
   flutter_svg: ^2.0.7
   shimmer: ^3.0.0
+  cached_network_image: ^3.2.3
 
 dev_dependencies:
   flutter_test:
@@ -41,15 +42,15 @@ flutter:
         - asset: assets/fonts/noto_sans_kr_bold.otf
     - family: NotoSansKRLight
       fonts:
-        - asset: assets/fonts/noto_sans_kr_light.ttf
+        - asset: assets/fonts/noto_sans_kr_light.otf
     - family: NotoSansKRMedium
       fonts:
-        - asset: assets/fonts/noto_sans_kr_medium.ttf
+        - asset: assets/fonts/noto_sans_kr_medium.otf
     - family: NotoSansKRRegular
       fonts:
-        - asset: assets/fonts/noto_sans_kr_regular.ttf
+        - asset: assets/fonts/noto_sans_kr_regular.otf
     - family: NotoSansKRThin
       fonts:
-        - asset: assets/fonts/noto_sans_kr_thin.ttf
+        - asset: assets/fonts/noto_sans_kr_thin.otf
 
 
